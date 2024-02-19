@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo sticky">
+                <img src="https://preview.colorlib.com/theme/resta/img/logo.png.webp" alt="">
+            </div>
+            <div class="menu">
+                <div class="bigmenu">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Menu</a></li>
+                        <li><a href="">Pages </a> <i class="fa-solid  fa-chevron-down icon" id="downiconpages"></i>
+                            <ul class="pages">
+                                <li><a href="">About</a></li>
+                                <li><a href="">Elements</a></li>
+                            </ul>
+                        </li>
+                        <li class="blog"><a href="">Blog </a><i class="fa-solid  fa-chevron-down icon"
+                                id="downiconblogs"></i>
+                            <ul class="blogs">
+                                <li><a href="">Blog</a></li>
+                                <li><a href="">Single Blog</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="hamburger">
+                    <i class="fa-solid  fa-bars iconmenu"></i>
+                </div>
+                <div class="littlemenu sticky">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Menu</a></li>
+                        <li><a href="">Pages </a> <i class="fa-solid downiconpages fa-chevron-down icon"></i>
+                            <ul class="littlepages">
+                                <li><a href="">About</a></li>
+                                <li><a href="">Elements</a></li>
+                            </ul>
+                        </li>
+                        <li class="blog"><a href="">Blog </a><i class="fa-solid downiconblog fa-chevron-down icon"></i>
+                            <ul class="littleblogs">
+                                <li><a href="">Blog</a></li>
+                                <li><a href="">Single Blog</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="book">
+                <h4><a href="">Book a Table</a></h4>
+            </div>
+        </div>
+    </header>
+    <div class="carousel">
+        <div class="slider">
+            <div class="slide"
+                style="background-image: url(https://preview.colorlib.com/theme/resta/img/banner/banner.png.webp);">
+                <div class="info">
+                    <h2>Fresh and Delicious Food <span>For your Health</span></h2>
+                    <button class="view">View menus</button>
+                </div>
+            </div>
+            <div class="slide"
+                style="background-image: url(https://preview.colorlib.com/theme/resta/img/banner/banner2.png.webp);">
+                <div class="info">
+                    <h2>Fresh and Delicious Food <span>For your Health</span></h2>
+                    <button class="viewmenus">View menus</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="click">
+        <div class="tab" onclick="toggleTab(1)"><i class="fa-solid fa-utensils icons"></i></div>
+        <div class="tab" onclick="toggleTab(2)"><i class="fa-solid fa-mug-saucer icons"></i></div>
+        <div class="tab" onclick="toggleTab(3)"><i class="fa-solid fa-plate-wheat icons"></i></div>
+    </div>
+    <div class="accordion">
+        <div style="display: flex;flex-direction: column;">
+            <div class="content" id="content1">
+                <div class="cards">
+                    <div class="card-parts">
+                        <div class="card">
+                            <div class="img1"></div>
+                            <div class="texts">
+                                <h3>#12. Chicken Chilis</h3>
+                                <p>Craft beer elit seitan exercitation photo booth et 8-bit kale chips.</p>
+                                <h2>$20</h2>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="img2"></div>
+                            <div>
+                                <h3>#10. Fried Rice</h3>
+                                <p>Craft beer elit seitan exercitation photo booth et 8-bit kale chips.</p>
+                                <h2>$20</h2>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="img3"></div>
+                            <div>
+                                <h3>#02. Burger Cury</h3>
+                                <p>Craft beer elit seitan exercitation photo booth et 8-bit kale chips.</p>
+                                <h2>$20</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-parts">
+                        <div class="card">
+                            <div class="img4"></div>
+                            <div>
+                                <h3>#16. Chicken Chilis</h3>
+                                <p>Craft beer elit seitan exercitation photo booth et 8-bit kale chips.</p>
+                                <h2>$20</h2>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="img5"></div>
+                            <div>
+                                <h3>#08. Vegetable fry</h3>
+                                <p>Craft beer elit seitan exercitation photo booth et 8-bit kale chips.</p>
+                                <h2>$20</h2>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="img6"></div>
+                            <div>
+                                <h3>#01. Chicken Chilis</h3>
+                                <p>Craft beer elit seitan exercitation photo booth et 8-bit kale chips.</p>
+                                <h2>$20</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div style="display: flex;flex-direction: column;">
+            <div class="content" id="content2">
+                <div class="cards">
+                    <div class="card-parts">
+                        <div class="card">
+                            <div class="img7"></div>
+                            <div class="texts">
+                                <h3>#22. Shrimp Pasta</h3>
+                                <p>Craft beer elit seitan exercitation photo booth et 8-bit kale chips.</p>
+                                <h2>$25</h2>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="img8"></div>
+                            <div>
+                                <h3>#18. Vegetarian Pizza</h3>
+                                <p>Craft beer elit seitan exercitation photo booth et 8-bit kale chips.</p>
+                                <h2>$22</h2>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="img9"></div>
+                            <div>
+                                <h3>#05. Spaghetti Bolognese</h3>
+                                <p>Craft beer elit seitan exercitation photo booth et 8-bit kale chips.</p>
+                                <h2>$18</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-parts">
+                        <div class="card">
+                            <div class="img10"></div>
+                            <div>
+                                <h3>#14. Grilled Salmon</h3>
+                                <p>Craft beer elit seitan exercitation photo booth et 8-bit kale chips.</p>
+                                <h2>$30</h2>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="img11"></div>
+                            <div>
+                                <h3>#09. Margherita Pizza</h3>
+                                <p>Craft beer elit seitan exercitation photo booth et 8-bit kale chips.</p>
+                                <h2>$21</h2>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="img12"></div>
+                            <div>
+                                <h3>#03. Caesar Salad</h3>
+                                <p>Craft beer elit seitan exercitation photo booth et 8-bit kale chips.</p>
+                                <h2>$15</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex;flex-direction: column;">
+            <div style="display: flex;flex-direction: column;">
+                <div class="content" id="content3">
+                    <div class="cards">
+                        <div class="card-parts">
+                            <div class="card">
+                                <div class="img13"></div>
+                                <div class="texts">
+                                    <h3>#22. Shrimp Pasta</h3>
+                                    <p>Craft beer elit seitan exercitation photo booth et 8-bit kale chips.</p>
+                                    <h2>$25</h2>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="img14"></div>
+                                <div>
+                                    <h3>#18. Vegetarian Pizza</h3>
+                                    <p>Craft beer elit seitan exercitation photo booth et 8-bit kale chips.</p>
+                                    <h2>$22</h2>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="img15"></div>
+                                <div>
+                                    <h3>#05. Spaghetti Bolognese</h3>
+                                    <p>Craft beer elit seitan exercitation photo booth et 8-bit kale chips.</p>
+                                    <h2>$18</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-parts">
+                            <div class="card">
+                                <div class="img16"></div>
+                                <div>
+                                    <h3>#14. Grilled Salmon</h3>
+                                    <p>Craft beer elit seitan exercitation photo booth et 8-bit kale chips.</p>
+                                    <h2>$30</h2>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="img17"></div>
+                                <div>
+                                    <h3>#09. Margherita Pizza</h3>
+                                    <p>Craft beer elit seitan exercitation photo booth et 8-bit kale chips.</p>
+                                    <h2>$21</h2>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="img18"></div>
+                                <div>
+                                    <h3>#03. Caesar Salad</h3>
+                                    <p>Craft beer elit seitan exercitation photo booth et 8-bit kale chips.</p>
+                                    <h2>$15</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
